@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+#LogoSales {
+    position: absolute;
+    
+}
+
+.arriba {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    height: 23px;
+}
+
+.cabecera {
+    background-color: #00669F;
+    height: 80px;
+    position: sticky;
+    top : 0px;
+}
+
+nav {
+    position: absolute;
+    background-color: #001D2D;
+    height: 40px;
+    top: 103px;
+    text-align: right;
+    word-spacing: 10px;
+    width: 1505px;
+} 
+
+nav span {
+    position: relative;
+    right: 3%;
+    top: 25%;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+h1{    
+    color: #FFFFFF;
+    font-size: 35px;
+    position: relative;
+    top: -70%;    
+    left: 8%;
+}
+
+.card {
+    background-color: #F3F3F3;
+    height: 336px;
+    position: absolute;
+    top: 511px;
+    text-align: center;
+    width: 300px;
+}
+
+.bman{
+    left: 12.5%;
+}
+
+.wwoman{
+    position: absolute;
+    left: 40%;
+}
+
+.sman {
+    position: absolute;
+    right: 12.5%;
+}
+
+.perfil {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    position: relative;
+    top: -60px
+}
+
+.fondo{
+    position: absolute;
+    height: 193px;
+    width: 300px;
+    border-radius: 25px 25px 0 0;
+    top: 319px;
+}
+
+.contenido p{
+    position: relative;
+    font-size: 16px;
+    width: 267px;
+    text-align: left;
+    margin: 0 auto;
+    top: -30px;
+}
+
+.contenido h2{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    top: -40px;
+    
+}
+
+#batman {
+    background-image: url("../img/bg-batman.jpg");
+    background-position: center;
+    background-size: 400px;
+    left: 12.5%;
+}
+
+#wonderWoman {
+    background-image: url("../img/bg-hquinn.jpg");
+    background-position: center;
+    left: 40%;
+}
+
+
+#superman {
+    background-image: url("../img/bg-batman.jpg");
+    background-position: center;
+    background-size: 400px;
+    right: 12.5%;
+}
+
+.sman{
+    right: 12.5%;
+}
+
+.fa-plus-circle {
+    font-size: 82px;
+    color: #00669F;
+    position: fixed;
+    right: 3.5%;
+    bottom: 33%;
+}
+.VerMas {
+    position: relative;
+    background-color: #00669F;
+    border-radius: 7px;
+    width: 128px;
+    height: 48px;
+    margin: 0 auto;
+    /* bottom: 10px; */
+}
+
+.VerMas a{
+    color: #F3F3F3;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    top: 12px;
+}
+.fa-heart {
+    color: #CC2424;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+
+footer{
+    position: absolute;
+    width: 1505px;
+    height: 61px;
+    left: -1px;
+    top: 1055px;
+    background-color: #00669F;
+}
+
+footer p{
+    position: relative;
+    color: #FFF;
+    font-size: 36px;
+    margin: 0 auto;
+    left: 25%;
+    top: 33%
+    
+}

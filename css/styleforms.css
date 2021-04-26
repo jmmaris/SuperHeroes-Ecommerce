@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+#LogoSales {
+    position: absolute; 
+}
+
+.arriba {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    height: 23px;
+}
+
+.cabecera {
+    background-color: #00669F;
+    height: 80px;
+    position: sticky;
+    top : 0px;
+}
+
+
+h1{    
+    color: #FFFFFF;
+    font-size: 35px;
+    position: relative;
+    top: -70%;    
+    left: 10%;
+}
+
+h2 {
+    font-size: 72px;
+    font-weight: bold;
+    left: 410px;
+    position: relative;
+    top: 120px;
+}
+
+input, select {
+    height: 60px;
+    width: 620px;
+    left: 410px;
+    border-radius: 0px;
+    font-size: 20px;
+    border: solid 2px;
+    border-color: black;
+}
+.OpcionDeRegistro {
+    position: absolute;
+    top: 900px;
+    left: 600px;
+}
+
+.OpcionDeRegistroLogin {
+    position: absolute;
+    top: 580px;
+    left: 600px;
+}
+
+#NombreYApellido {
+    position: absolute;
+    top: 351px;
+}
+
+#CorreoElectronico {
+    position: absolute;
+    top: 431px;
+}
+#Contrasena {
+    position: absolute;
+    top: 511px;
+}
+#CorreoElectronicoLogin {
+    position: absolute;
+    top: 331px;
+}
+#ContrasenaLogin {
+    position: absolute;
+    top: 411px;
+}
+
+
+#Pais {
+    position: absolute;
+    top: 591px;
+}
+#TextoLargo {
+    position: absolute;
+    height: 251px;
+    width: 620px;
+    left: 410px;
+    top: 511px;
+    border-radius: 0px;
+    font-size: 20px;
+    border: solid 2px;
+    border-color: black;
+}
+
+#Reset {
+    position: absolute;
+    height: 54px;
+    width: 300px;
+    left: 410px;
+    top: 809px;
+    border-radius: 23px;
+    background-color: #888888;
+    border: none;
+}
+
+#Enviar {
+    position: absolute;
+    height: 54px;
+    width: 300px;
+    left: 730px;
+    top: 809px;
+    border-radius: 23px;
+    background-color: #1CD1B0;
+    border: none;
+}
+
+#Entrar {
+    position: absolute;
+    height: 54px;
+    width: 620px;
+    left: 410px;
+    top: 499px;
+    border-radius: 23px;
+    background-color: #1CD1B0;
+    border: none;
+}
+
+footer{
+    position: absolute;
+    width: 1505px;
+    height: 61px;
+    left: -1px;
+    top: 1055px;
+    background-color: #00669F;
+}
+
+.footerLogin{
+    position: absolute;
+    top: 750px;
+}
+
+footer p{
+    position: relative;
+    color: #FFF;
+    font-size: 36px;
+    margin: 0 auto;
+    left: 25%;
+    top: 20%
+    
+}
