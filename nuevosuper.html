@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylenuevosuper.css">
+</head>
+
+<body>
+    <header>
+        <div class="arriba">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+        <div class="cabecera">
+            <a href="index.html"><img src="img/logo 1.png" alt="Logo Sales" id="LogoSale"></a>
+            <h1>Nombre Tienda</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="card">
+                <h2>Añadí tu super!</h2>
+                <h4>Agregá tu personaje favorito completando las opciones.</h4>
+                <form action="index.html" method="POST">
+                    <div id="columna1">
+                        <label for="NombreYApellido" id="labelNombre">*Nombre</label>
+                        <input type="text" name="NombreYApellido" id="NombreYApellido">
+
+                        <label for="Fecha" id="labelFecha">Fecha</label>
+                        <input type="date" name="Fecha" id="Fecha" placeholder="dd/mm/aaaa">
+                        <textarea id="Descripcion" placeholder="Descripción" name="Descripcion"></textarea>
+                    </div>
+                    <div id="columna2">
+                        <label for="Especie" id="labelEspecie">*Especie</label>
+                        <select name="Especie" id="Especie">
+                            <option disabled selected >Especie</option>
+                            <option value="Unknown">Unknown</option>
+                        </select>
+
+                        <label for="Foto" id="labelFoto">Agregar Foto</label>
+                        <input type="file" name="Foto" id="Foto" placeholder="Seleccionar Archivo" accept=".png, .jpg">
+                        <label for="Poderes" id="labelPoderes">Poderes</label>
+                        <input type="checkbox" name="Poderes" id="Poderes" value="Volar"> <span id="Volar">  Volar </span>
+                        <input type="checkbox" name="Poderes" id="Poderes" value="Superinteligencia"> <span id="Superinteligencia">  Superinteligencia </span>
+                        <input type="checkbox" name="Poderes" id="Poderes" value="Vista de rayo laser"> <span id="VistaLaser">Vista de rayo láser</span>
+                        <input type="checkbox" name="Poderes" id="Poderes" value="Billetera gorda"> <span id="BilleteraGorda">Billetera gorda </span>
+                        <div id="linea"></div>
+                        <label for="Tipo" id="labelTipo">Tipo de personaje</label>
+                        <input type="radio" name="Tipo" id="Tipo" value="Heroe"> <span id="Heroe">  Héroe / Heroína </span>
+                        <input type="radio" name="Tipo" id="Tipo" value="Villano"> <span id="Villano">  Villano / Villana </span>
+                    </div>
+                    <button type="submit" id="Enviar"><a href="index.html" style="text-decoration: none; color: #000; font-size: 40px; font-weight: bold;">Añadir</a></button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a Front End I</p>
+    </footer>
+</body>
+
+</html>

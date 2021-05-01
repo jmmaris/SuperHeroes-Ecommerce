@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    position: absolute;
+    height: 832px;
+    width: 954px;
+    left: 243px;
+    top: 184px;
+    border-radius: 50px;
+    background-color: #00669F;
+}
+#LogoSales {
+    position: absolute; 
+}
+
+.arriba {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    height: 23px;
+}
+
+.cabecera {
+    background-color: #00669F;
+    height: 80px;
+    position: sticky;
+    top : 0px;
+}
+
+
+h1{    
+    color: #FFFFFF;
+    font-size: 35px;
+    position: relative;
+    top: -70%;    
+    left: 10%;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 16px;
+}
+
+h4 {
+    color: #FFF;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+
+input, select {
+    height: 60px;
+    width: 620px;
+    left: 410px;
+    border-radius: 0px;
+    font-size: 20px;
+    border: solid 2px;
+    border-color: black;
+}
+
+#columna1 {
+    position: absolute;
+    top: 130px;
+    left: 123px;
+    height: 530px;
+    width: 307px;
+
+}
+#columna2 {
+    position: absolute;
+    top: 130px;
+    left: 480px;
+    height: 530px;
+    width: 307px;
+}
+
+#labelNombre {
+    position: relative;
+    top: 0px;
+    color: #FFF;
+    font-weight: lighter;
+}
+#NombreYApellido {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    left: 0;
+    border-radius: 10px;
+    border: none;
+}
+#labelEspecie {
+    position: relative;
+    top: 0px;
+    color: #FFF;
+    font-weight: lighter;
+}
+#Especie {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    left: 0;
+    border-radius: 10px;
+    border: none;
+    color: grey;
+}
+#labelFecha {
+    position: relative;
+    top: 40px;
+    color: #FFF;
+    font-weight: lighter;
+}
+
+#Fecha {
+    position: relative;
+    top: 60px;
+    width: 100%;
+    left: 0;
+    border-radius: 10px;
+    border: none;
+}
+
+#labelFoto {
+    position: relative;
+    top: 40px;
+    color: #FFF;
+    font-weight: lighter;
+}
+
+#Foto {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    left: 0;
+    border: none;
+}
+
+#labelPoderes {
+    position: relative;
+    top: 90px;
+    color: #FFF;
+    font-weight: lighter;
+}
+
+#Poderes {
+    position: relative;
+    top: 100px;
+    height: 20px;
+    width: 100%;
+    left: -140px;
+    border: none;
+    color: #FFF;
+}
+
+#labelTipo {
+    position: relative;
+    top: 160px;
+    color: #FFF;
+    font-weight: lighter;
+}
+
+#Tipo {
+    position: relative;
+    top: 160px;
+    margin-top: 10px;
+    height: 20px;
+    width: 100%;
+    left: -140px;
+    border: none;
+    color: #FFF;
+}
+
+#Descripcion {
+    position: relative;
+    height: 280px;
+    width: 100%;
+    border-radius: 15px;
+    top: 90px;
+    padding: 15px;
+}
+
+#columna2 span{
+    color:#FFF ;
+    position: absolute;
+    left: 30px;
+}
+#Volar {
+    top: 280px;
+}
+#Superinteligencia {
+    top: 302px;
+}
+#VistaLaser {
+    top: 328px;
+}
+#BilleteraGorda {
+    top: 350px;
+}
+
+#Heroe {
+    top: 462px;
+}
+#Villano {
+    top: 500px;
+}
+#CorreoElectronico {
+    position: absolute;
+    top: 431px;
+}
+#Contrasena {
+    position: absolute;
+    top: 511px;
+}
+#linea {
+    color:#FFF ;
+    position: absolute;
+    top: 400px;
+    height: 0px;
+    width: 100%;
+    border: solid 0.5px #FFF;
+}
+#CorreoElectronicoLogin {
+    position: absolute;
+    top: 331px;
+}
+#ContrasenaLogin {
+    position: absolute;
+    top: 411px;
+}
+
+#Enviar {
+    position: relative;
+    height: 87px;
+    width: 466px;
+    top: 630px;
+    left: 25%;
+    border-radius: 23px;
+    text-align: center;
+    background-color: #1CD1B0;
+    border: none;
+}
+
+footer{
+    position: absolute;
+    width: 1505px;
+    height: 61px;
+    left: -1px;
+    top: 1055px;
+    background-color: #00669F;
+}
+
+.footerLogin{
+    position: absolute;
+    top: 750px;
+}
+
+footer p{
+    position: relative;
+    color: #FFF;
+    font-size: 36px;
+    margin: 0 auto;
+    left: 25%;
+    top: 20%
+    
+}
